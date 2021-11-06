@@ -47,7 +47,10 @@ class EntertainmentContentCell : UICollectionViewCell {
         titleLabel.text = title
         yearLabel.text = releaseYear
         currentImageUrl = imageUrl
-        activityIndicator.frame = self.imageView.bounds
+        activityIndicator.frame = CGRect(x: imageView.bounds.minX - titleLabel.bounds.size.width/4,
+                                         y: imageView.bounds.minY,
+                                         width: imageView.bounds.size.width,
+                                         height: imageView.bounds.size.height)
         self.imageView.addSubview(activityIndicator)
         activityIndicator.startAnimating()
         cellDelegate?.fetchImage(url: imageUrl) { [weak self] (url, contentImage) in
