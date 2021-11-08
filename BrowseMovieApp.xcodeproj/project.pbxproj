@@ -285,17 +285,9 @@
 				90A0AACC273546CE001BB783 /* Networking.h */,
 				90A0AAE827354702001BB783 /* Network.swift */,
 				90A0AAEA2735472C001BB783 /* NetworkManager.swift */,
-				90A0AAF82735627C001BB783 /* ImageManager */,
 				90A0AACD273546CE001BB783 /* Networking.docc */,
 			);
 			path = Networking;
-			sourceTree = "<group>";
-		};
-		90A0AAF82735627C001BB783 /* ImageManager */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ImageManager;
 			sourceTree = "<group>";
 		};
 		90A0AAFC27356B62001BB783 /* UIComponents */ = {
